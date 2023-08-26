@@ -1,29 +1,34 @@
 # CODSOFT_TASK_1
 
-Completed Task 1: "TITANIC SURVIVAL PREDICTION" for CodSoft Internship!
 
-"I'm excited to share my first project on Titanic survival prediction . I completed this project during my internship at CodSoft, where I was tasked with using machine learning to predict the likelihood of survival for passengers on the Titanic.
+Task 3: "CREDITCARD FRAUD DETECTION" 💳
 
-💡 Approach:
+image
 
-I used the Titanic dataset from Kaggle, which includes information on over 481 passengers, including their age, gender, class, and whether they survived. I used a logistic regression model to predict survival, and I was able to achieve an accuracy of 100%.
+Credit card fraud detection is a type of fraud detection that uses machine learning to identify fraudulent credit card transactions. The goal of credit card fraud detection is to prevent fraudulent transactions from being approved, while minimizing the number of legitimate transactions that are incorrectly flagged as fraudulent.
 
-Logistic regression is a statistical method that is used to predict the probability of a binary outcome, such as whether a passenger survived the Titanic disaster or not. The model works by fitting a line to the data, and then using the line to predict the probability of survival for a given passenger.
+ABOUT DATASETS: URL : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-CHALLENGES:-
+This datasets have 492 frauds out of 284,807 transactions. It is highly unbalanced, the positive class--1 (frauds) account for 0.172% of all transactions.
 
-One of the challenges that I faced in this project was dealing with missing data. The Titanic dataset has some missing values for certain features, such as age and cabin. I had to use imputation techniques to fill in these missing values, which can be challenging.
+It contains only numerical input variables which are the result of a PCA transformation. Due to confidentiality issues, the original features are not provided and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'.
 
-Another challenge that I faced was dealing with imbalanced data. The Titanic dataset is imbalanced, meaning that there are more passengers who did not survive than passengers who did survive. This can make it difficult to train a model that accurately predicts survival.
+Feature Time contains the seconds elapsed between each transaction and the first transaction in the dataset.But, we did not consider Time for training purpose as it is of no use to build the models and may not impact our target variable.
 
-👌👌Making a predictive system :-
+The feature Amount is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning.
 
-I also used Tkinter to create a predictive system that takes passenger name, sex, class, and other information and tells the user whether the passenger survived or not. The system is a simple GUI that allows the user to enter the passenger's information and then click a button to predict the passenger's survival. The system uses the logistic regression model that I trained to make the prediction.
+Feature Class is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
-Conclusion:-
+STEPS :
 
-Despite these challenges, I was able to achieve an accuracy of 100%, which is a good result. This indicates the model's ability to predict Titanic survival outcomes. I am confident that the insights gained from this project can provide valuable information and contribute to understanding the factors affecting survival rates during historical events like the Titanic disaster.
+Importing Libraries & Loading Datasets.
 
-Future goal:-
+Data Preprocessing & Preparing Datasets.
 
-I plan to continue learning about machine learning and to apply my skills to other projects in the future. I am particularly interested in using machine learning to improve the safety of transportation systems.
+Exploratoty Data Analysis(EDA) & Visualization.
+
+Handling Imbalanced Datasets.
+
+Conclusions.
+
+CONCLUSION:- In conclusion, our credit card fraud detection project has successfully developed a robust system capable of identifying fraudulent transactions with a high degree of accuracy. This achievement has the potential to significantly reduce financial losses and enhance customer trust. While our current model demonstrates impressive results, the ever-evolving nature of fraud necessitates ongoing efforts to refine and improve our detection methods.
